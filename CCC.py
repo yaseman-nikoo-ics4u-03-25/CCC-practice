@@ -1,7 +1,7 @@
-line = "1 2 3 4 5"
-num-list=line.split()
-sum=0
-for i in num-list:
-  sum=sum+ int(num-list(i))
-
-print(sum)
+s= "tgt"
+code=[]
+for x in range(len(s)):
+    if s[x].isalpha():
+      code.append(s[x])
+      s = s.replace(s[x], " ") 
+print(code)
